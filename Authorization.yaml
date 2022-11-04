@@ -1,0 +1,26 @@
+swagger: '2.0'
+info:
+  description: ''
+  version: 7.0.0
+  title: Authorization
+host: api.google.com
+schemes:
+  - https
+basePath: /authorization/jwt
+paths:
+  /token:
+    get:
+      operationId: Generate Token
+      summary: ''
+      responses:
+        '200':
+          description: successful operation
+      parameters: []
+  /verifytoken:
+    get:
+      operationId: Verify Token
+      summary: ''
+      responses:
+        '200':
+          description: successful operation
+      parameters: []
